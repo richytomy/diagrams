@@ -1,3 +1,9 @@
+# Chef
+
+![Chef configuration management](https://github.com/richytomy/diagrams/blob/master/chef_configuration_management.jpg)
+
+
+
 ## Chef server
 Your Chef server acts as a central repository for your cookbooks as well as for information about every node it manages. For example, the Chef server knows a node's fully qualified domain name (FQDN) and its platform.
 
