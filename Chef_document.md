@@ -39,4 +39,4 @@ chef generate cookbook cookbooks/learn_chef_apache2
 
 ## Architecture
 
-![Basic chef server node setup](https://github.com/richytomy/diagrams/blob/master/Chef_basic_webserver.drawio)
+![Basic chef server node setup](https://github.com/richytomy/diagrams/blob/master/Screen%20Shot%202019-05-07%20at%208.51.48%20AM.png)
