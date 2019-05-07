@@ -24,7 +24,7 @@ knife cookbook upload learn_chef_apache2
 knife cookbook list
 
 
-##local mode
+## local mode
 apply a chef recipe on the local system
 * sudo chef-client --local-mode webserver.rb
 
@@ -35,3 +35,8 @@ Cook books as the name hints is a collection of chef recipes.
 To generate a template of cookbook
 chef generate cookbook cookbooks/learn_chef_apache2
 
+
+
+## Architecture
+
+![Basic chef server node setup](https://github.com/richytomy/diagrams/blob/master/Chef_basic_webserver.drawio)
