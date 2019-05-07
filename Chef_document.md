@@ -1,4 +1,4 @@
-# Chef
+# Chef configuration management
 
 ![Chef configuration management](https://github.com/richytomy/diagrams/blob/master/chef_configuration_management.jpg)
 
@@ -11,6 +11,16 @@ Central server which is bootstrapped to the nodes
 Repository for Cookbooks and recipes  
 running a chef server on unbuntu on AWS  
 [Go to learn chef rally](https://learn.chef.io/modules/learn-the-basics/ubuntu/aws#/)
+
+## Chef recipes
+Recipes in chef are essentially ruby scripts. It is mostly a collection of resources.
+[Find more about chef recipes](https://docs.chef.io/recipes.html)
+
+## Cookbooks
+Cook books as the name implies is a collection of chef recipes with a bunch of other supporting files.
+
+To generate a template cookbook use the below command
+_chef generate cookbook cookbooks/learn_chef_apache2_
 
 
 ## Chef node
@@ -33,14 +43,6 @@ knife cookbook list
 ## local mode
 apply a chef recipe on the local system
 * sudo chef-client --local-mode webserver.rb
-
-
-## Cook books
-Cook books as the name hints is a collection of chef recipes.
-
-To generate a template of cookbook
-chef generate cookbook cookbooks/learn_chef_apache2
-
 
 
 ## Architecture
